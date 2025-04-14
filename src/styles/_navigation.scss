@@ -1,6 +1,19 @@
 @import 'variables';
 
-* {
+html,
+body,
+.header,
+.nav,
+.nav__list,
+.nav__item,
+.nav__link,
+.logo__image,
+.logo,
+.logo img,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
